@@ -17,7 +17,6 @@ def help(message: telebot.types.Message):
                                     пример: рубль доллар 1'
     bot.reply_to(message, text)
 
-
 @bot.message_handler(commands=['values'])
 def values(message: telebot.types.Message):
     text = 'Доступные валюты:'
